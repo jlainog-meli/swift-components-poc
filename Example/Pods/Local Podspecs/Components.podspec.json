@@ -1,0 +1,22 @@
+{
+  "name": "Components",
+  "version": "0.1.0",
+  "summary": "A short description of Components.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jlainog-meli/Components",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jlainog-meli": "jaime.laino@mercadolibre.com.co"
+  },
+  "source": {
+    "git": "https://github.com/jlainog-meli/Components.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Components/Classes/**/*"
+}

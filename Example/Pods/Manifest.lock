@@ -1,0 +1,27 @@
+PODS:
+  - Components (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - Components (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  Components:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Components: 6fb0367a8bdd5c5644acb9d8d52ea788fabcc3d8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: a4d856bb563fc4fc613141846d6a0e562310306d
+
+COCOAPODS: 1.10.1
