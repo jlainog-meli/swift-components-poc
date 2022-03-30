@@ -34,7 +34,7 @@ struct DiscountElement: View {
                     Circle()
                         .frame(width: Constants.Circle.frameSize, height: Constants.Circle.frameSize)
                         .foregroundColor(Constants.Circle.foregroundColor)
-                    Image(model.icon)
+                    Image(model.icon, bundle: .assets)
                         .resizable()
                         .frame(width: Constants.Circle.frameSize, height: Constants.Circle.frameSize)
                         .scaledToFit()

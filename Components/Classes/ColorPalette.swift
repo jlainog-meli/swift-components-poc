@@ -13,3 +13,10 @@ struct ColorPalette {
     static var disableText: Color = .blue
     static var invertedText: Color = .white
 }
+
+private final class ModuleClass {}
+extension Bundle {
+    static let assets = Bundle(for: ModuleClass.self)
+            .url(forResource: "Components", withExtension: "bundle")
+            .flatMap(Bundle.init)
+}
