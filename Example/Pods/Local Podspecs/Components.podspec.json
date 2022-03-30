@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "Components/Classes/**/*"
+  "source_files": "Components/Classes/**/*",
+  "resource_bundles": {
+    "Components": [
+      "Components/Assets/*{.png,.xcassets}"
+    ]
+  }
 }
