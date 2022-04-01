@@ -76,6 +76,7 @@ struct Discounts_Previews: PreviewProvider {
     static var previews: some View {
         if #available(iOS 14.0, *) {
             Discounts(model: .example)
+                .previewLayout(.sizeThatFits)
         } else {
             // Fallback on earlier versions
         }

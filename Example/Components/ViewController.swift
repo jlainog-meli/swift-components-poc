@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import SwiftUI
+import Components
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        loadJson()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func loadJson() {
+        if let path = Bundle.main.path(forResource: "Congrats", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let jsonResult = try JSONSerialization.jsonObject(with: data) as? [AnyObject]
+//                let views = JSONMapper.map(json: jsonResult!)
+            } catch {
+                // handle error
+            }
+        }
     }
-
 }
-

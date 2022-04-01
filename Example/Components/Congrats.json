@@ -1,0 +1,51 @@
+[
+    {
+        "id": "header",
+        "title": "Congratulations",
+        "avatar": ""
+    },
+    {
+        "id": "loyalty",
+        "title": "Sumaste 1 Mercado Punto",
+        "linkText": "Ver mis beneficios",
+        "progressLabel": "5",
+        "progressValue": 0.7
+    },
+    {
+        "id": "discounts",
+        "discounts": [
+            {
+                "icon": "",
+                "label": "HASTA",
+                "text": "20% OFF"
+            },
+            {
+                "icon": "",
+                "label": "HASTA",
+                "text": "20% OFF"
+            },
+            {
+                "icon": "",
+                "label": "HASTA",
+                "text": "20% OFF"
+            },
+            {
+                "icon": "",
+                "label": "HASTA",
+                "text": "20% OFF"
+            },
+            {
+                "icon": "",
+                "label": "HASTA",
+                "text": "20% OFF"
+            },
+            {
+                "icon": "",
+                "label": "HASTA",
+                "text": "20% OFF"
+            }
+        ],
+        "title": "Descuentos para vos",
+        "actionLabel": "Ver todos los descuentos"
+    }
+]

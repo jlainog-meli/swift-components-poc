@@ -10,8 +10,8 @@ import SwiftUI
 struct ButtonView: View {
     private enum Constants {
         enum Text {
-            static let fontWeight: Font.Weight = .bold
-            static let font: Font = .system(.title)
+            static let fontWeight: Font.Weight = .semibold
+            static let font: Font = .system(size: 16)
             static let padding: EdgeInsets = EdgeInsets(top: 17, leading: 24, bottom: 15, trailing: 24)
         }
         
@@ -48,6 +48,15 @@ struct ButtonView_Previews: PreviewProvider {
         ButtonView(state: .primaryExample)
             .previewLayout(.sizeThatFits)
             .padding()
-            .previewDisplayName("Button")
+            .previewDisplayName("primaryExample")
+        ButtonView(state: .secondaryExample)
+            .previewLayout(.sizeThatFits)
+            .padding()
+            .previewDisplayName("secondaryExample")
+        ButtonView(state: .transparentExample)
+            .previewLayout(.sizeThatFits)
+            .padding()
+            .previewDisplayName("transparentExample")
+
     }
 }

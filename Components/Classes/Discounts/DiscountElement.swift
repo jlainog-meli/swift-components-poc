@@ -9,12 +9,7 @@ import SwiftUI
 
 struct DiscountElement: View {
     private enum Constants {
-        enum Circle {
-            static let frameSize: CGFloat = 56
-            static let foregroundColor: Color = .black.opacity(0.04)
-            static let imageSize: CGFloat = 25
-        }
-        
+        static let frameSize: CGFloat = 56
         static let padding: CGFloat = 8
         static let priceFont: Font = .system(size: 20)
         static let titleFont: Font = .system(size: 12)
@@ -31,12 +26,9 @@ struct DiscountElement: View {
         } label: {
             VStack(spacing: Constants.spacing) {
                 ZStack {
-                    Circle()
-                        .frame(width: Constants.Circle.frameSize, height: Constants.Circle.frameSize)
-                        .foregroundColor(Constants.Circle.foregroundColor)
                     Image(model.icon, bundle: .assets)
                         .resizable()
-                        .frame(width: Constants.Circle.frameSize, height: Constants.Circle.frameSize)
+                        .frame(width: Constants.frameSize, height: Constants.frameSize)
                         .scaledToFit()
                 }
                 .padding(.bottom, Constants.padding)
