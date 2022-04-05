@@ -7,10 +7,9 @@
 
 import Foundation
 
-struct OperationViewState {
+struct OperationViewState: Codable {
     var icon: String
     var title: String
-    // Subtitle format? should come "2 de julio de 2018 a las 12:05 hs" or mobile is responsible for this interpretation?
     var subtitle: String
     var labelAccessibility: String?
 }

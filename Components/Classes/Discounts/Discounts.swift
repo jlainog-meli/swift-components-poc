@@ -37,7 +37,7 @@ struct Discounts: View {
     let model: DiscountSectionViewState
     private var gridItemLayout = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
     
-    fileprivate init(model: DiscountSectionViewState) {
+    init(model: DiscountSectionViewState) {
         self.model = model
     }
     
@@ -66,7 +66,7 @@ struct Discounts: View {
             }
             .padding(Constants.Grid.paddingEdges, Constants.Grid.paddingValue)
             
-            ButtonView(state: .secondaryExample)
+            ButtonView(state: model.buttonViewState)
                 .padding(Constants.Button.edgeInsets)
         }
     }

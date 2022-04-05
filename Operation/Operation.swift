@@ -14,7 +14,7 @@ struct Operation: View {
             static let maxWidth: CGFloat = .infinity
         }
         enum Image {
-            static let frameSize: CGFloat = 56
+            static let frameSize: CGFloat = 48
             static let leading: CGFloat = 32
         }
         

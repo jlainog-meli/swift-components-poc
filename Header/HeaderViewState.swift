@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct HeaderModel {
+struct HeaderModel: Codable {
     var id: String
     var title: String
     var avatar: String

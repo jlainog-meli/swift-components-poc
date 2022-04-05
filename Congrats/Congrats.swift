@@ -26,8 +26,12 @@ struct Congrats: View {
                         Operation(model: model)
                     }
                     
-                    if let model = model as? DiscountViewState {
-                        Discounts(model: model)
+                    if let model = model as? DiscountSectionViewState {
+                        if #available(iOS 14.0, *) {
+                            Discounts(model: model)
+                        } else {
+                            // Fallback on earlier versions
+                        }
                     }
                 }
 
@@ -41,7 +45,10 @@ struct Congrats_Previews: PreviewProvider {
     static var previews: some View {
         Congrats(views: [
             HeaderViewState.headerExample,
-            LoyaltyViewState.loyaltyExample
+            OperationViewState.masterCardExample,
+            OperationViewState.operationExample,
+            LoyaltyViewState.loyaltyExample,
+            DiscountSectionViewState.example
         ])
     }
 }

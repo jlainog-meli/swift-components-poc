@@ -40,7 +40,6 @@
 		961FDC4227F656CC00601D40 /* LoyaltyViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FDC4127F656CC00601D40 /* LoyaltyViewState.swift */; };
 		961FDC4527F6591A00601D40 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FDC4427F6591A00601D40 /* ProgressIndicator.swift */; };
 		961FDC4B27F7741200601D40 /* Congrats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FDC4A27F7741200601D40 /* Congrats.swift */; };
-		961FDC4E27F7775400601D40 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FDC4D27F7775400601D40 /* JSONMapper.swift */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A2EA6F0CE98E9A7B22BC703F4066E090 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00413D6EA11D68BCA318843C5AA12 /* ButtonView.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -142,7 +141,6 @@
 		961FDC4127F656CC00601D40 /* LoyaltyViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyViewState.swift; sourceTree = "<group>"; };
 		961FDC4427F6591A00601D40 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		961FDC4A27F7741200601D40 /* Congrats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congrats.swift; sourceTree = "<group>"; };
-		961FDC4D27F7775400601D40 /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
 		9780892C316100875D38AF2DD037EFF7 /* Components.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Components.modulemap; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -228,7 +226,6 @@
 		32D148F3D97C5605C221E36FDA4134E6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				961FDC4C27F7774500601D40 /* JSONMapper */,
 				961FDC4927F7740300601D40 /* Congrats */,
 				961FDC4327F6590200601D40 /* ProgresIndicator */,
 				961FDC3E27F6568200601D40 /* Loyalty */,
@@ -365,14 +362,6 @@
 				961FDC4A27F7741200601D40 /* Congrats.swift */,
 			);
 			path = Congrats;
-			sourceTree = "<group>";
-		};
-		961FDC4C27F7774500601D40 /* JSONMapper */ = {
-			isa = PBXGroup;
-			children = (
-				961FDC4D27F7775400601D40 /* JSONMapper.swift */,
-			);
-			path = JSONMapper;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -746,7 +735,6 @@
 				11CC9870DB3C34FA4E732608121CB731 /* Discounts.swift in Sources */,
 				961FDC3527F506FF00601D40 /* OperationViewState.swift in Sources */,
 				961FDC4027F6569400601D40 /* Loyalty.swift in Sources */,
-				961FDC4E27F7775400601D40 /* JSONMapper.swift in Sources */,
 				90363E948A7A7233DAAF239CCFE7A037 /* DiscountViewState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

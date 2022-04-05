@@ -15,7 +15,7 @@ struct Loyalty: View {
         }
         enum Progress {
             static let frameSize: CGFloat = 44
-            static let leading: CGFloat = 32
+            static let leading: CGFloat = 34
             static let color: Color = .blue
             static let font: Font = .system(size: 28)
             static let fontWeight: Font.Weight = .semibold
