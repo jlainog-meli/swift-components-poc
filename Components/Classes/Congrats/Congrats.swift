@@ -46,9 +46,9 @@ struct Congrats_Previews: PreviewProvider {
         Congrats(views: [
             HeaderViewState.headerExample,
             OperationViewState.masterCardExample,
-            OperationViewState.operationExample,
             LoyaltyViewState.loyaltyExample,
-            DiscountSectionViewState.example
+            DiscountSectionViewState.example,
+            OperationViewState.operationExample,
         ])
     }
 }
